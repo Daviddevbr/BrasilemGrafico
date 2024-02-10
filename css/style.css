@@ -167,5 +167,9 @@ footer a{
         width: 100%;
     };
 
+    footer{
+        display:none;
+    }
+
 
 }
