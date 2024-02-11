@@ -20,10 +20,13 @@ menuHamburher.addEventListener("click", ()=>{
 
   console.log(listaDesodernada.style.display)
 
+ 
     if(listaDesodernada.style.display=="flex"){
         listaDesodernada.style.display="none"
+        footer.style.display="flex"
     }else{
         listaDesodernada.style.display="flex"
+        footer.style.display="none"
     }
 
 })
