@@ -158,6 +158,8 @@ footer a{
         align-items: center;
         justify-content: center;
         width: 100%;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
     li{
         width: 100%;
