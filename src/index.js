@@ -15,10 +15,11 @@ let buttom = document.querySelectorAll(".buttonMenu")
 let corpoMapa = document.getElementsByName("apresenta_corpo")
 let menuHamburher=document.querySelector("#menubuger")
 let listaDesodernada=document.querySelector("ul")
+let footer=document.querySelector("footer")
 
 menuHamburher.addEventListener("click", ()=>{
 
-  console.log(listaDesodernada.style.display)
+
 
  
     if(listaDesodernada.style.display=="flex"){
